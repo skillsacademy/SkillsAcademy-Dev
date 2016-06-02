@@ -30,5 +30,4 @@ project.lock.json
 npm-debug.log
 /.build/
 
-/wwwroot/dist/
 /node_modules/
