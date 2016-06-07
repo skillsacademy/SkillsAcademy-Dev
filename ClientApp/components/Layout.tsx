@@ -1,5 +1,9 @@
 import * as React from 'react';
 import { NavMenu } from './NavMenu';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import {MuiThemeProvider, lightBaseTheme} from "material-ui/styles";
+
+const lightMuiTheme = getMuiTheme(lightBaseTheme);
 
 export interface LayoutProps {
     body: React.ReactElement<any>;
@@ -7,7 +11,8 @@ export interface LayoutProps {
 
 export class Layout extends React.Component<LayoutProps, void> {
     public render() {
-        return <div className='container-fluid'>
+        return <MuiThemeProvider muiTheme={lightMuiTheme}>
+            <div className='container-fluid'>
             <div className='row'>
                 <div className='col-sm-3'>
                     <NavMenu />
@@ -16,6 +21,7 @@ export class Layout extends React.Component<LayoutProps, void> {
                     { this.props.body }
                 </div>
             </div>
-        </div>;
+            </div>
+           </MuiThemeProvider>;
     }
 }

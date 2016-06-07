@@ -2,12 +2,19 @@ import './css/site.css';
 import 'bootstrap';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+//import injectTapEventPlugin from 'react-tap-event-plugin';
 import { browserHistory, Router } from 'react-router';
 import { Provider } from 'react-redux';
 import { syncHistoryWithStore } from 'react-router-redux';
 import routes from './routes';
 import configureStore from './configureStore';
 import { ApplicationState }  from './store';
+
+//Needed for onTouchTap
+//Can go away when react 1.0 release
+//Check this repo:
+//https://github.com/zilverline/react-tap-event-plugin
+//injectTapEventPlugin();
 
 // Get the application-wide store instance, prepopulating with state from the server where available.
 const initialState = (window as any).initialReduxState as ApplicationState;

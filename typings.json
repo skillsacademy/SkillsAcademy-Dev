@@ -1,0 +1,19 @@
+{
+  "name": "SkillsAcademy",
+  "globalDependencies": {
+    "history": "github:DefinitelyTyped/DefinitelyTyped/react-router/history.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "material-ui": "registry:dt/material-ui#0.15.0+20160602140214",
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "react-dom": "github:DefinitelyTyped/DefinitelyTyped/react/react-dom.d.ts#dade4414712ce84e3c63393f1aae407e9e7e6af7",
+    "react-redux": "github:DefinitelyTyped/DefinitelyTyped/react-redux/react-redux.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "react-router": "github:DefinitelyTyped/DefinitelyTyped/react-router/react-router.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "react-router-redux": "github:DefinitelyTyped/DefinitelyTyped/react-router-redux/react-router-redux.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "react-tap-event-plugin": "registry:dt/react-tap-event-plugin#0.0.0+20160602142434",
+    "redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "redux-thunk": "github:DefinitelyTyped/DefinitelyTyped/redux-thunk/redux-thunk.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "source-map": "github:DefinitelyTyped/DefinitelyTyped/source-map/source-map.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "uglify-js": "github:DefinitelyTyped/DefinitelyTyped/uglify-js/uglify-js.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "webpack-env": "github:DefinitelyTyped/DefinitelyTyped/webpack/webpack-env.d.ts#9f0f926a12026287b5a4a229e5672c01e7549313",
+    "whatwg-fetch": "github:DefinitelyTyped/DefinitelyTyped/whatwg-fetch/whatwg-fetch.d.ts#dade4414712ce84e3c63393f1aae407e9e7e6af7"
+  }
+}

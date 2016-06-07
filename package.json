@@ -1,6 +1,15 @@
 {
   "name": "SkillsAcademy",
   "version": "0.0.0",
+  "description": "Identifying, Understanding and Resolving Student Misconceptions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skillsacademy/SkillsAcademy-Dev"
+  },
+  "bugs": {
+    "url": "https://github.com/skillsacademy/SkillsAcademy-Dev/issues"
+  },
+  "homepage": "",
   "devDependencies": {
     "aspnet-webpack-react": "^1.0.1",
     "babel-loader": "^6.2.3",
@@ -24,11 +33,13 @@
     "aspnet-webpack": "^1.0.2",
     "babel-core": "^6.5.2",
     "domain-task": "^1.0.0",
+    "material-ui": "^0.15.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "react-redux": "^4.4.4",
     "react-router": "^2.1.1",
     "react-router-redux": "^4.0.2",
+    "react-tap-event-plugin": "^1.0.0",
     "redux": "^3.4.0",
     "redux-thunk": "^2.0.1",
     "redux-typed": "^1.0.0",
