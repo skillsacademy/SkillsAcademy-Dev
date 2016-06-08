@@ -24,9 +24,21 @@ export class NavMenu extends React.Component<any, void> {
                     targetOrigin={{ horizontal: 'right', vertical: 'top' }}
                     anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
                     >
-                    <MenuItem primaryText='Home' />
-                    <MenuItem primaryText='Counter' />
-                    <MenuItem primaryText='Fetch Data' />
+                    <MenuItem
+                        linkButton
+                        containerElement={<Link to='/' />}
+                        primaryText='Home'
+                        />
+                    <MenuItem
+                        linkButton
+                        containerElement={<Link to='/counter' />}
+                        primaryText='Counter'
+                        />
+                    <MenuItem
+                        linkButton
+                        containerElement={<Link to='/fetchdata' />}
+                        primaryText='Fetch Data'
+                        />
                 </IconMenu>
             }
         />;
