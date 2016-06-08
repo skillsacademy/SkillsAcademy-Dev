@@ -23,7 +23,7 @@ export class NavMenu extends React.Component<any, void> {
                     }
                     targetOrigin={{ horizontal: 'right', vertical: 'top' }}
                     anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
-                >
+                    >
                     <MenuItem primaryText='Home' />
                     <MenuItem primaryText='Counter' />
                     <MenuItem primaryText='Fetch Data' />

@@ -14,8 +14,7 @@ class Counter extends React.Component<CounterProps, void> {
 
             <p>Current count: <strong>{ this.props.count }</strong></p>
 
-            <RaisedButton label="Default" onClick={ () => { this.props.increment() } }/>
-            
+            <RaisedButton label="Increment" onClick={ () => { this.props.increment() } }/>
         </div>;
     }
 }

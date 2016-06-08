@@ -12,9 +12,13 @@ export interface LayoutProps {
 export class Layout extends React.Component<LayoutProps, void> {
     public render() {
         return <MuiThemeProvider muiTheme={lightMuiTheme}>
-            <div>
-            <NavMenu />
-            { this.props.body }
+            <div className='row'>
+                <div className='col-sm-3'>
+                    <NavMenu />
+                </div>
+                <div className='col-sm-9'>
+                    { this.props.body }
+                </div>
             </div>
         </MuiThemeProvider>;
     }

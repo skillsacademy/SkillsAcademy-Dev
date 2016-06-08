@@ -31,7 +31,7 @@ export const actionCreators = {
 // REDUCER - For a given state and action, returns the new state. To support time travel, this must not mutate the old state.
 export const reducer: Reducer<CounterState> = (state, action) => {
     if (isActionType(action, IncrementCount)) {
-        return { count: state.count + 40 };
+        return { count: state.count + 1 };
     }
     
     // For unrecognized actions (or in cases where actions have no effect), must return the existing state

@@ -1,8 +1,8 @@
 {
   "resolution": "main",
   "tree": {
-    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d9b6b8e455e1ee3371a04a24d6490e1771e45b6b/react-tap-event-plugin/react-tap-event-plugin.d.ts",
-    "raw": "registry:dt/react-tap-event-plugin#0.0.0+20160602142434",
-    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d9b6b8e455e1ee3371a04a24d6490e1771e45b6b/react-tap-event-plugin/react-tap-event-plugin.d.ts"
+    "src": "https://raw.githubusercontent.com/simonwoodhead/DefinitelyTyped/74f5915ca943efec59d237f5a4235c58827dc9eb/react-tap-event-plugin/react-tap-event-plugin.d.ts",
+    "raw": "github:simonwoodhead/DefinitelyTyped/react-tap-event-plugin/react-tap-event-plugin.d.ts#74f5915ca943efec59d237f5a4235c58827dc9eb",
+    "typings": "https://raw.githubusercontent.com/simonwoodhead/DefinitelyTyped/74f5915ca943efec59d237f5a4235c58827dc9eb/react-tap-event-plugin/react-tap-event-plugin.d.ts"
   }
 }

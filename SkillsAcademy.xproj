@@ -7,7 +7,7 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>5c188d80-0e55-4960-a62b-70f914566301</ProjectGuid>
+    <ProjectGuid>afc5df06-6bd2-4ff3-9c8b-a727b2aae803</ProjectGuid>
     <RootNamespace>SkillsAcademy</RootNamespace>
   </PropertyGroup>
   <PropertyGroup>
