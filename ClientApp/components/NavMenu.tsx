@@ -1,40 +1,34 @@
 import * as React from 'react';
 import { Link } from 'react-router';
+import AppBar from 'material-ui/AppBar';
+import IconButton from 'material-ui/IconButton';
+import IconMenu from 'material-ui/IconMenu';
+import MenuItem from 'material-ui/MenuItem';
+import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
+import NavigationClose from 'material-ui/svg-icons/navigation/close';
+
+function handleTouchTap() {
+    alert('onTouchTap triggered on the right icon component');
+}
 
 export class NavMenu extends React.Component<any, void> {
     public render() {
-        return <div className='main-nav'>
-                <div className='navbar navbar-inverse'>
-                <div className='navbar-header'>
-                    <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
-                        <span className='sr-only'>Toggle navigation</span>
-                        <span className='icon-bar'></span>
-                        <span className='icon-bar'></span>
-                        <span className='icon-bar'></span>
-                    </button>
-                    <Link className='navbar-brand' to={ '/' }>SkillsAcademy</Link>
-                </div>
-                <div className='clearfix'></div>
-                <div className='navbar-collapse collapse'>
-                    <ul className='nav navbar-nav'>
-                        <li>
-                            <Link to={ '/' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-home'></span> Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={ '/counter' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-education'></span> Counter
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to={ '/fetchdata' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-th-list'></span> Fetch data
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>;
+        return <AppBar
+            title='The Skills Academy'
+            onRightIconButtonTouchTap={handleTouchTap}
+            iconElementRight={
+                <IconMenu
+                    iconButtonElement={
+                        <IconButton><MoreVertIcon /></IconButton>
+                    }
+                    targetOrigin={{ horizontal: 'right', vertical: 'top' }}
+                    anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
+                >
+                    <MenuItem primaryText='Home' />
+                    <MenuItem primaryText='Counter' />
+                    <MenuItem primaryText='Fetch Data' />
+                </IconMenu>
+            }
+        />;
     }
 }
